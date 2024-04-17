@@ -2,10 +2,13 @@
 
 ```{r}
 # Load necessary packages
-pacman::p_load(tidyverse, knitr, here)
+pacman::p_load(tidyverse, knitr, here,dplyr,knitr, tidyr, kableExtra )
 
 # Import the communicable diseases data
 data_cmnn <- read_csv(here("data", "burden-of-disease-cmnn.csv"))
+data_cmn_3_country<-data_cmnn %>% 
+  filter(Entity=="Australia" | Entity=="Guatemala"  | Entity=="Philippines")
+#table(data_cmn_3_country$Entity)
 ```
 
 ## Table of Estimates for CMNN Burden Over Time
@@ -13,17 +16,54 @@ data_cmnn <- read_csv(here("data", "burden-of-disease-cmnn.csv"))
 ```{r}
 # Here render a table for the DALY burden over time for the three countries 
 # You should pivot the data to show each country in a separate column.
+data_cmn_3_country_wide<-data_cmn_3_country %>% 
+    pivot_wider(
+      id_cols=Year,
+      names_from= Entity,
+    values_from=`DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: Age-standardized (Rate)`
+    )
+
 # Use kable() from the knitr package to render the table.
+# cmnn_burden_with_time_table<-data_cmn_3_country_wide %>%
+#   arrange(Year) %>% # to be sure it is sorted by year
+#   kbl() %>%
+#   kable_classic_2(full_width = F)
+
+cmnn_burden_with_time_table<-kable(data_cmn_3_country_wide, "html", booktabs = TRUE, caption = "Table 1: DALY burden over time for Australia, Guatemala and Philipines") %>%
+  kable_styling(full_width = FALSE) %>%
+  row_spec(0, bold = TRUE)
+
+cmnn_burden_with_time_table
 ```
 
 ## Plot Showing Trends in CMNN Burden Over Time
 
 ```{r}
 # Here, plot a line graph showing the trend of DALY burden for the chosen countries over time. You can use ggplot2 to create this plot. Each country's line should be a different color.
+
+cnnm_trend_plot<- data_cmn_3_country %>% 
+  rename(DALY=`DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: Age-standardized (Rate)`) %>% 
+  ggplot(mapping=aes(x=Year,
+                     y=DALY,
+                      group=Entity))+
+  geom_line(mapping=aes(color=Entity))+
+  scale_x_continuous(breaks = seq(from=1990, to=2020, by=5))+
+  scale_y_continuous(breaks = seq(from=0, to=30000,by=2000))+
+  labs(x="Year",
+       y="DALYs",
+       title="Trend of DALYs of CMNN over time",
+       caption= "Source : Institute for Health Metrics and Evaluation (IHME) Global Burden of Disease (GBD) study",
+       color="Country") +  # Change legend title 
+  theme_minimal()+
+  theme(plot.caption = element_text(size = 8, face = "italic"))
+  
+  
+cnnm_trend_plot
+
 ```
 
 ## Summary of CMNN Burden Findings
+Regardless of the time period, Guatemala and the Philippines consistently experience a higher burden of communicable, maternal, neonatal, and nutritional diseases (CMNN) compared to Australia. From 1990 to 2019, the Disability-Adjusted Life Years (DALYs) from CMNN steadily declined in all three countries. However, the decrease in DALY burdens was significantly more pronounced in Guatemala and the Philippines than in Australia. Specifically, Guatemala's DALY burden for CMNN decreased from approximately 27,000 in 1990 to 6,700 in 2019. Meanwhile, in the Philippines, the DALY burden reduced from 16,000 to 7,800 over the same period.
 
-Provide a brief analysis based on the data presented in the table and chart. Highlight any significant findings or patterns. About 3 sentences.
 
 
