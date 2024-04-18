@@ -1,6 +1,7 @@
 ---
 title: "Global Disease Burden Analysis"
 author: "ROSA LEA BALDEVARONA, ROCIO ESCOBAR, EVELYNE"
+always_allow_html: true
 output: github_document
 ---
 
