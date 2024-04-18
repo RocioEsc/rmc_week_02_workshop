@@ -1,6 +1,6 @@
 Global Disease Burden Analysis
 ================
-ROSA LEA BALDEVARONA, ROCIO ESCOBAR, EVELYNE
+ROSA LEA BALDEVARONA, ROCIO ESCOBAR, EVELYNE FOURNIER
 
 # Introduction
 
