@@ -5,7 +5,7 @@
 pacman::p_load(tidyverse, knitr, here,dplyr,knitr, tidyr, kableExtra )
 
 # Import the communicable diseases data
-data_cmnn <- read_csv(here("data", "burden-of-disease-cmnn.csv"))
+data_cmnn <- read_csv(here("data", "burden-of-disease-cmnn.csv"),show_col_types = FALSE)
 data_cmn_3_country<-data_cmnn %>% 
   filter(Entity=="Australia" | Entity=="Guatemala"  | Entity=="Philippines")
 #table(data_cmn_3_country$Entity)
@@ -13,7 +13,7 @@ data_cmn_3_country<-data_cmnn %>%
 
 ## Table of Estimates for CMNN Burden Over Time
 
-```{r}
+```{r Table production, message=FALSE, warning=FALSE}
 # Here render a table for the DALY burden over time for the three countries 
 # You should pivot the data to show each country in a separate column.
 data_cmn_3_country_wide<-data_cmn_3_country %>% 
@@ -33,6 +33,9 @@ cmnn_burden_with_time_table<-kable(data_cmn_3_country_wide, "html", booktabs = T
   kable_styling(full_width = FALSE) %>%
   row_spec(0, bold = TRUE)
 
+```
+
+```{r}
 cmnn_burden_with_time_table
 ```
 

@@ -15,15 +15,6 @@ The source data is from the Institute for Health Metrics and Evaluation
 
 # Communicable, Maternal, Neonatal, and Nutritional Disease Burden (CMNN)
 
-    ## Rows: 8100 Columns: 4
-    ## ── Column specification ────────────────────────────────────────────────────────
-    ## Delimiter: ","
-    ## chr (2): Entity, Code
-    ## dbl (2): Year, DALYs (Disability-Adjusted Life Years) - Communicable, matern...
-    ## 
-    ## ℹ Use `spec()` to retrieve the full column specification for this data.
-    ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-
 ## Table of Estimates for CMNN Burden Over Time
 
 <table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
@@ -934,7 +925,7 @@ Philippines
 
 ## Plot Showing Trends in NCD Burden Over Time
 
-![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
 
 ## Summary of NCD Burden Findings
 
@@ -1391,7 +1382,7 @@ Philippines
 
 ## Plot Showing Trends in Overall Disease Burden Over Time
 
-![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-29-1.png)<!-- -->
+![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
 
 ## Summary of Overall Disease Burden Findings
 
