@@ -5,7 +5,7 @@ ROSA LEA BALDEVARONA, ROCIO ESCOBAR, EVELYNE FOURNIER
 # Introduction
 
 This document compares the Disability-Adjusted Life Year (DALY) diseases
-burden for three countries: COUNTRY 1, COUNTRY 2, and COUNTRY 3. We
+burden for three countries: Australia, Guatemala and the Philippines. We
 compare the burden due to communicable, maternal, neonatal, and
 nutritional diseases (CMNN), non-communicable diseases (NCDs), and
 overall disease burden for these countries.
@@ -17,7 +17,7 @@ The source data is from the Institute for Health Metrics and Evaluation
 
 ## Table of Estimates for CMNN Burden Over Time
 
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table" style="color: black; width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
 Table 1: DALY burden over time for Australia, Guatemala and Philipines
 </caption>
@@ -463,7 +463,7 @@ Philippines
 
 ## Plot Showing Trends in CMNN Burden Over Time
 
-![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ## Summary of CMNN Burden Findings
 
@@ -482,450 +482,42 @@ Meanwhile, in the Philippines, the DALY burden reduced from 16,000 to
 
 ## Table of Estimates for NCD Burden Over Time
 
-<table>
-<thead>
-<tr>
-<th style="text-align:right;">
-Year
-</th>
-<th style="text-align:right;">
-Australia
-</th>
-<th style="text-align:right;">
-Guatemala
-</th>
-<th style="text-align:right;">
-Philippines
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right;">
-1990
-</td>
-<td style="text-align:right;">
-20910.31
-</td>
-<td style="text-align:right;">
-24734.41
-</td>
-<td style="text-align:right;">
-22350.97
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1991
-</td>
-<td style="text-align:right;">
-20483.92
-</td>
-<td style="text-align:right;">
-25478.18
-</td>
-<td style="text-align:right;">
-21920.05
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1992
-</td>
-<td style="text-align:right;">
-20294.06
-</td>
-<td style="text-align:right;">
-25896.08
-</td>
-<td style="text-align:right;">
-21940.06
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1993
-</td>
-<td style="text-align:right;">
-19978.86
-</td>
-<td style="text-align:right;">
-26254.00
-</td>
-<td style="text-align:right;">
-21981.92
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1994
-</td>
-<td style="text-align:right;">
-19876.85
-</td>
-<td style="text-align:right;">
-26004.09
-</td>
-<td style="text-align:right;">
-22029.13
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1995
-</td>
-<td style="text-align:right;">
-19624.51
-</td>
-<td style="text-align:right;">
-24465.72
-</td>
-<td style="text-align:right;">
-22047.08
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1996
-</td>
-<td style="text-align:right;">
-19461.13
-</td>
-<td style="text-align:right;">
-23685.71
-</td>
-<td style="text-align:right;">
-22232.67
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1997
-</td>
-<td style="text-align:right;">
-19233.22
-</td>
-<td style="text-align:right;">
-23862.38
-</td>
-<td style="text-align:right;">
-22223.44
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1998
-</td>
-<td style="text-align:right;">
-18992.07
-</td>
-<td style="text-align:right;">
-24018.39
-</td>
-<td style="text-align:right;">
-22374.94
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1999
-</td>
-<td style="text-align:right;">
-18740.97
-</td>
-<td style="text-align:right;">
-23523.11
-</td>
-<td style="text-align:right;">
-22489.80
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2000
-</td>
-<td style="text-align:right;">
-18467.31
-</td>
-<td style="text-align:right;">
-23404.79
-</td>
-<td style="text-align:right;">
-22813.14
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2001
-</td>
-<td style="text-align:right;">
-18181.01
-</td>
-<td style="text-align:right;">
-23191.95
-</td>
-<td style="text-align:right;">
-23142.42
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2002
-</td>
-<td style="text-align:right;">
-17997.19
-</td>
-<td style="text-align:right;">
-22829.82
-</td>
-<td style="text-align:right;">
-23430.59
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2003
-</td>
-<td style="text-align:right;">
-17746.36
-</td>
-<td style="text-align:right;">
-22775.12
-</td>
-<td style="text-align:right;">
-23360.65
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2004
-</td>
-<td style="text-align:right;">
-17522.61
-</td>
-<td style="text-align:right;">
-22827.56
-</td>
-<td style="text-align:right;">
-23347.25
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2005
-</td>
-<td style="text-align:right;">
-17302.04
-</td>
-<td style="text-align:right;">
-22718.08
-</td>
-<td style="text-align:right;">
-23666.45
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2006
-</td>
-<td style="text-align:right;">
-17112.47
-</td>
-<td style="text-align:right;">
-22678.75
-</td>
-<td style="text-align:right;">
-23721.66
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2007
-</td>
-<td style="text-align:right;">
-17053.32
-</td>
-<td style="text-align:right;">
-22380.40
-</td>
-<td style="text-align:right;">
-23607.68
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2008
-</td>
-<td style="text-align:right;">
-16955.95
-</td>
-<td style="text-align:right;">
-22172.54
-</td>
-<td style="text-align:right;">
-23776.59
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2009
-</td>
-<td style="text-align:right;">
-16788.48
-</td>
-<td style="text-align:right;">
-22346.87
-</td>
-<td style="text-align:right;">
-23818.85
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2010
-</td>
-<td style="text-align:right;">
-16625.33
-</td>
-<td style="text-align:right;">
-22592.96
-</td>
-<td style="text-align:right;">
-23719.61
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2011
-</td>
-<td style="text-align:right;">
-16480.76
-</td>
-<td style="text-align:right;">
-22681.21
-</td>
-<td style="text-align:right;">
-23697.51
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2012
-</td>
-<td style="text-align:right;">
-16255.88
-</td>
-<td style="text-align:right;">
-22571.69
-</td>
-<td style="text-align:right;">
-23778.89
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2013
-</td>
-<td style="text-align:right;">
-16133.95
-</td>
-<td style="text-align:right;">
-22476.69
-</td>
-<td style="text-align:right;">
-23769.65
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2014
-</td>
-<td style="text-align:right;">
-16086.16
-</td>
-<td style="text-align:right;">
-22430.60
-</td>
-<td style="text-align:right;">
-23751.02
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2015
-</td>
-<td style="text-align:right;">
-16053.35
-</td>
-<td style="text-align:right;">
-22430.35
-</td>
-<td style="text-align:right;">
-23840.80
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2016
-</td>
-<td style="text-align:right;">
-15950.46
-</td>
-<td style="text-align:right;">
-22365.16
-</td>
-<td style="text-align:right;">
-23738.39
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2017
-</td>
-<td style="text-align:right;">
-15976.50
-</td>
-<td style="text-align:right;">
-22069.25
-</td>
-<td style="text-align:right;">
-23552.32
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2018
-</td>
-<td style="text-align:right;">
-16048.14
-</td>
-<td style="text-align:right;">
-21878.40
-</td>
-<td style="text-align:right;">
-23331.00
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2019
-</td>
-<td style="text-align:right;">
-16056.02
-</td>
-<td style="text-align:right;">
-21808.70
-</td>
-<td style="text-align:right;">
-23163.47
-</td>
-</tr>
-</tbody>
-</table>
+| Year | Australia | Guatemala | Philippines |
+|-----:|----------:|----------:|------------:|
+| 1990 |  20910.31 |  24734.41 |    22350.97 |
+| 1991 |  20483.92 |  25478.18 |    21920.05 |
+| 1992 |  20294.06 |  25896.08 |    21940.06 |
+| 1993 |  19978.86 |  26254.00 |    21981.92 |
+| 1994 |  19876.85 |  26004.09 |    22029.13 |
+| 1995 |  19624.51 |  24465.72 |    22047.08 |
+| 1996 |  19461.13 |  23685.71 |    22232.67 |
+| 1997 |  19233.22 |  23862.38 |    22223.44 |
+| 1998 |  18992.07 |  24018.39 |    22374.94 |
+| 1999 |  18740.97 |  23523.11 |    22489.80 |
+| 2000 |  18467.31 |  23404.79 |    22813.14 |
+| 2001 |  18181.01 |  23191.95 |    23142.42 |
+| 2002 |  17997.19 |  22829.82 |    23430.59 |
+| 2003 |  17746.36 |  22775.12 |    23360.65 |
+| 2004 |  17522.61 |  22827.56 |    23347.25 |
+| 2005 |  17302.04 |  22718.08 |    23666.45 |
+| 2006 |  17112.47 |  22678.75 |    23721.66 |
+| 2007 |  17053.32 |  22380.40 |    23607.68 |
+| 2008 |  16955.95 |  22172.54 |    23776.59 |
+| 2009 |  16788.48 |  22346.87 |    23818.85 |
+| 2010 |  16625.33 |  22592.96 |    23719.61 |
+| 2011 |  16480.76 |  22681.21 |    23697.51 |
+| 2012 |  16255.88 |  22571.69 |    23778.89 |
+| 2013 |  16133.95 |  22476.69 |    23769.65 |
+| 2014 |  16086.16 |  22430.60 |    23751.02 |
+| 2015 |  16053.35 |  22430.35 |    23840.80 |
+| 2016 |  15950.46 |  22365.16 |    23738.39 |
+| 2017 |  15976.50 |  22069.25 |    23552.32 |
+| 2018 |  16048.14 |  21878.40 |    23331.00 |
+| 2019 |  16056.02 |  21808.70 |    23163.47 |
 
 ## Plot Showing Trends in NCD Burden Over Time
 
-![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ## Summary of NCD Burden Findings
 
@@ -939,450 +531,42 @@ an increasing pattern for the Philippines beginning in the year 1991.
 
 ## Table of Estimates for Overall Disease Burden Over Time
 
-<table>
-<thead>
-<tr>
-<th style="text-align:right;">
-Year
-</th>
-<th style="text-align:right;">
-Australia
-</th>
-<th style="text-align:right;">
-Guatemala
-</th>
-<th style="text-align:right;">
-Philippines
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right;">
-1990
-</td>
-<td style="text-align:right;">
-26008.86
-</td>
-<td style="text-align:right;">
-60188.16
-</td>
-<td style="text-align:right;">
-43149.40
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1991
-</td>
-<td style="text-align:right;">
-25401.58
-</td>
-<td style="text-align:right;">
-60306.98
-</td>
-<td style="text-align:right;">
-42137.21
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1992
-</td>
-<td style="text-align:right;">
-25125.72
-</td>
-<td style="text-align:right;">
-59688.69
-</td>
-<td style="text-align:right;">
-40959.93
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1993
-</td>
-<td style="text-align:right;">
-24686.07
-</td>
-<td style="text-align:right;">
-58302.59
-</td>
-<td style="text-align:right;">
-40536.11
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1994
-</td>
-<td style="text-align:right;">
-24564.33
-</td>
-<td style="text-align:right;">
-56764.24
-</td>
-<td style="text-align:right;">
-39960.87
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1995
-</td>
-<td style="text-align:right;">
-24253.82
-</td>
-<td style="text-align:right;">
-52824.72
-</td>
-<td style="text-align:right;">
-39483.62
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1996
-</td>
-<td style="text-align:right;">
-24087.24
-</td>
-<td style="text-align:right;">
-50266.53
-</td>
-<td style="text-align:right;">
-39060.23
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1997
-</td>
-<td style="text-align:right;">
-23770.25
-</td>
-<td style="text-align:right;">
-50085.11
-</td>
-<td style="text-align:right;">
-38489.42
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1998
-</td>
-<td style="text-align:right;">
-23467.79
-</td>
-<td style="text-align:right;">
-49646.69
-</td>
-<td style="text-align:right;">
-38302.82
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-1999
-</td>
-<td style="text-align:right;">
-23180.86
-</td>
-<td style="text-align:right;">
-47413.75
-</td>
-<td style="text-align:right;">
-37705.04
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2000
-</td>
-<td style="text-align:right;">
-22814.91
-</td>
-<td style="text-align:right;">
-46451.73
-</td>
-<td style="text-align:right;">
-37885.01
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2001
-</td>
-<td style="text-align:right;">
-22418.30
-</td>
-<td style="text-align:right;">
-45409.12
-</td>
-<td style="text-align:right;">
-37879.61
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2002
-</td>
-<td style="text-align:right;">
-22164.60
-</td>
-<td style="text-align:right;">
-44122.01
-</td>
-<td style="text-align:right;">
-37824.40
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2003
-</td>
-<td style="text-align:right;">
-21854.57
-</td>
-<td style="text-align:right;">
-43272.61
-</td>
-<td style="text-align:right;">
-37432.44
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2004
-</td>
-<td style="text-align:right;">
-21544.97
-</td>
-<td style="text-align:right;">
-42612.36
-</td>
-<td style="text-align:right;">
-37271.14
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2005
-</td>
-<td style="text-align:right;">
-21262.74
-</td>
-<td style="text-align:right;">
-42575.46
-</td>
-<td style="text-align:right;">
-37214.25
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2006
-</td>
-<td style="text-align:right;">
-21024.34
-</td>
-<td style="text-align:right;">
-41469.73
-</td>
-<td style="text-align:right;">
-37385.60
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2007
-</td>
-<td style="text-align:right;">
-20923.68
-</td>
-<td style="text-align:right;">
-40219.62
-</td>
-<td style="text-align:right;">
-36810.60
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2008
-</td>
-<td style="text-align:right;">
-20797.99
-</td>
-<td style="text-align:right;">
-39456.51
-</td>
-<td style="text-align:right;">
-36869.26
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2009
-</td>
-<td style="text-align:right;">
-20643.87
-</td>
-<td style="text-align:right;">
-39361.79
-</td>
-<td style="text-align:right;">
-36839.50
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2010
-</td>
-<td style="text-align:right;">
-20403.87
-</td>
-<td style="text-align:right;">
-38520.65
-</td>
-<td style="text-align:right;">
-36390.98
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2011
-</td>
-<td style="text-align:right;">
-20201.39
-</td>
-<td style="text-align:right;">
-37646.35
-</td>
-<td style="text-align:right;">
-36226.05
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2012
-</td>
-<td style="text-align:right;">
-19895.18
-</td>
-<td style="text-align:right;">
-36794.56
-</td>
-<td style="text-align:right;">
-35986.03
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2013
-</td>
-<td style="text-align:right;">
-19744.50
-</td>
-<td style="text-align:right;">
-36238.73
-</td>
-<td style="text-align:right;">
-36300.91
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2014
-</td>
-<td style="text-align:right;">
-19684.70
-</td>
-<td style="text-align:right;">
-35724.93
-</td>
-<td style="text-align:right;">
-35418.66
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2015
-</td>
-<td style="text-align:right;">
-19666.82
-</td>
-<td style="text-align:right;">
-35356.87
-</td>
-<td style="text-align:right;">
-35510.18
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2016
-</td>
-<td style="text-align:right;">
-19542.28
-</td>
-<td style="text-align:right;">
-35004.55
-</td>
-<td style="text-align:right;">
-35265.92
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2017
-</td>
-<td style="text-align:right;">
-19564.38
-</td>
-<td style="text-align:right;">
-34362.62
-</td>
-<td style="text-align:right;">
-35017.88
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2018
-</td>
-<td style="text-align:right;">
-19622.73
-</td>
-<td style="text-align:right;">
-34178.88
-</td>
-<td style="text-align:right;">
-34278.84
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2019
-</td>
-<td style="text-align:right;">
-19607.61
-</td>
-<td style="text-align:right;">
-33837.48
-</td>
-<td style="text-align:right;">
-33798.13
-</td>
-</tr>
-</tbody>
-</table>
+| Year | Australia | Guatemala | Philippines |
+|-----:|----------:|----------:|------------:|
+| 1990 |  26008.86 |  60188.16 |    43149.40 |
+| 1991 |  25401.58 |  60306.98 |    42137.21 |
+| 1992 |  25125.72 |  59688.69 |    40959.93 |
+| 1993 |  24686.07 |  58302.59 |    40536.11 |
+| 1994 |  24564.33 |  56764.24 |    39960.87 |
+| 1995 |  24253.82 |  52824.72 |    39483.62 |
+| 1996 |  24087.24 |  50266.53 |    39060.23 |
+| 1997 |  23770.25 |  50085.11 |    38489.42 |
+| 1998 |  23467.79 |  49646.69 |    38302.82 |
+| 1999 |  23180.86 |  47413.75 |    37705.04 |
+| 2000 |  22814.91 |  46451.73 |    37885.01 |
+| 2001 |  22418.30 |  45409.12 |    37879.61 |
+| 2002 |  22164.60 |  44122.01 |    37824.40 |
+| 2003 |  21854.57 |  43272.61 |    37432.44 |
+| 2004 |  21544.97 |  42612.36 |    37271.14 |
+| 2005 |  21262.74 |  42575.46 |    37214.25 |
+| 2006 |  21024.34 |  41469.73 |    37385.60 |
+| 2007 |  20923.68 |  40219.62 |    36810.60 |
+| 2008 |  20797.99 |  39456.51 |    36869.26 |
+| 2009 |  20643.87 |  39361.79 |    36839.50 |
+| 2010 |  20403.87 |  38520.65 |    36390.98 |
+| 2011 |  20201.39 |  37646.35 |    36226.05 |
+| 2012 |  19895.18 |  36794.56 |    35986.03 |
+| 2013 |  19744.50 |  36238.73 |    36300.91 |
+| 2014 |  19684.70 |  35724.93 |    35418.66 |
+| 2015 |  19666.82 |  35356.87 |    35510.18 |
+| 2016 |  19542.28 |  35004.55 |    35265.92 |
+| 2017 |  19564.38 |  34362.62 |    35017.88 |
+| 2018 |  19622.73 |  34178.88 |    34278.84 |
+| 2019 |  19607.61 |  33837.48 |    33798.13 |
 
 ## Plot Showing Trends in Overall Disease Burden Over Time
 
-![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-30-1.png)<!-- -->
+![](burden_of_disease_report_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
 
 ## Summary of Overall Disease Burden Findings
 
